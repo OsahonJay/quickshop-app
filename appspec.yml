@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  -source: /
+    destination: /var/deployments
+
+hooks:
+  AfterInstall:
+    - location: scripts/install.sh
+      timeout: 120
+      runas: root

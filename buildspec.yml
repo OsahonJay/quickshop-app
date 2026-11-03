@@ -1,0 +1,11 @@
+version:0.2
+
+phases:
+  build:
+    commands:
+      - echo "Packaging Quickshop files"
+
+
+artifacts:
+  files:
+    - '**/*'
